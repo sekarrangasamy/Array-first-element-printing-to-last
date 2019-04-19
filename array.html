@@ -1,0 +1,13 @@
+<script>
+var array = ['sekar','kumar','kavi'];
+var first = array[0];
+for(var i=1;i<array.length;i++)
+{
+array[i-1] = array[i];
+}
+array[array.length-1] = first;
+console.log(array);
+</script>
+
+output:
+array = "kumar","kavi","sekar"
